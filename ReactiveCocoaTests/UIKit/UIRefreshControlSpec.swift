@@ -57,7 +57,7 @@ class UIRefreshControlSpec: QuickSpec {
 
 			refreshed <~ SignalProducer(action.values)
 
-			refreshControl.reactive.refresh = CocoaAction(action)
+			refreshControl.reactive.refresh <~> action
 			expect(refreshed.value) == false
 
 			refreshControl.sendActions(for: .valueChanged)
@@ -72,7 +72,7 @@ class UIRefreshControlSpec: QuickSpec {
 				SignalProducer(value: true).delay(1, on: QueueScheduler.main)
 			}
 
-			refreshControl.reactive.refresh = CocoaAction(action)
+			refreshControl.reactive.refresh <~> action
 			expect(refreshControl.isRefreshing) == false
 
 			refreshControl.sendActions(for: .valueChanged)

@@ -140,6 +140,10 @@
 		9A54A21C1DE00D09001739B3 /* ObjC+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54A21A1DE00D09001739B3 /* ObjC+Selector.swift */; };
 		9A54A21D1DE00D09001739B3 /* ObjC+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54A21A1DE00D09001739B3 /* ObjC+Selector.swift */; };
 		9A54A21E1DE00D09001739B3 /* ObjC+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54A21A1DE00D09001739B3 /* ObjC+Selector.swift */; };
+		9A6523711ED09B2E00C3BA8D /* BidirectionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6523701ED09B2E00C3BA8D /* BidirectionalBinding.swift */; };
+		9A6523721ED09B2E00C3BA8D /* BidirectionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6523701ED09B2E00C3BA8D /* BidirectionalBinding.swift */; };
+		9A6523731ED09B2E00C3BA8D /* BidirectionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6523701ED09B2E00C3BA8D /* BidirectionalBinding.swift */; };
+		9A6523741ED09B2E00C3BA8D /* BidirectionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6523701ED09B2E00C3BA8D /* BidirectionalBinding.swift */; };
 		9A6AAA0E1DB6A4CF0013AAEA /* InterceptingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6AAA0D1DB6A4CF0013AAEA /* InterceptingSpec.swift */; };
 		9A6AAA0F1DB6A4CF0013AAEA /* InterceptingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6AAA0D1DB6A4CF0013AAEA /* InterceptingSpec.swift */; };
 		9A6AAA101DB6A4CF0013AAEA /* InterceptingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6AAA0D1DB6A4CF0013AAEA /* InterceptingSpec.swift */; };
@@ -416,6 +420,7 @@
 		9A2E425D1DAA6737006D909F /* CocoaTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaTarget.swift; sourceTree = "<group>"; };
 		9A54A2101DDF5B4D001739B3 /* InterceptingPerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterceptingPerformanceTests.swift; sourceTree = "<group>"; };
 		9A54A21A1DE00D09001739B3 /* ObjC+Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObjC+Selector.swift"; sourceTree = "<group>"; };
+		9A6523701ED09B2E00C3BA8D /* BidirectionalBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidirectionalBinding.swift; sourceTree = "<group>"; };
 		9A6AAA0D1DB6A4CF0013AAEA /* InterceptingSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterceptingSpec.swift; sourceTree = "<group>"; };
 		9A6AAA221DB8F51C0013AAEA /* ReusableComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableComponents.swift; sourceTree = "<group>"; };
 		9A6AAA251DB8F5280013AAEA /* ReusableComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableComponents.swift; sourceTree = "<group>"; };
@@ -779,6 +784,7 @@
 		D04725EC19E49ED7006002AA /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				9A6523701ED09B2E00C3BA8D /* BidirectionalBinding.swift */,
 				9ADE4A7B1DA44A9E005C2AC8 /* CocoaAction.swift */,
 				9A2E425D1DAA6737006D909F /* CocoaTarget.swift */,
 				CD0C45DD1CC9A288009F5BF0 /* DynamicProperty.swift */,
@@ -1246,6 +1252,7 @@
 				9AA0BD921DDE29F800531FCF /* NSObject+ObjCRuntime.swift in Sources */,
 				9A1D061A1D93EA0100ACF44C /* UIProgressView.swift in Sources */,
 				9AA0BD7F1DDE03DE00531FCF /* ObjC+Runtime.swift in Sources */,
+				9A6523741ED09B2E00C3BA8D /* BidirectionalBinding.swift in Sources */,
 				9A2E42611DAA6737006D909F /* CocoaTarget.swift in Sources */,
 				53A6BED41DD4BCA90016C058 /* MKMapView.swift in Sources */,
 				9A1D06121D93EA0100ACF44C /* UIBarButtonItem.swift in Sources */,
@@ -1312,6 +1319,7 @@
 				9ADE4A7E1DA44A9E005C2AC8 /* CocoaAction.swift in Sources */,
 				9AA0BD831DDE03F500531FCF /* ObjC+RuntimeSubclassing.swift in Sources */,
 				CD0C45E01CC9A288009F5BF0 /* DynamicProperty.swift in Sources */,
+				9A6523731ED09B2E00C3BA8D /* BidirectionalBinding.swift in Sources */,
 				9AA0BD911DDE29F800531FCF /* NSObject+ObjCRuntime.swift in Sources */,
 				9AF0EA771D9A7FF700F27DDF /* NSObject+BindingTarget.swift in Sources */,
 				9A1D05E21D93E99100ACF44C /* NSObject+Association.swift in Sources */,
@@ -1325,6 +1333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6523711ED09B2E00C3BA8D /* BidirectionalBinding.swift in Sources */,
 				4ABEFE2B1DCFD0030066A8C2 /* NSTableView.swift in Sources */,
 				CD0C45DE1CC9A288009F5BF0 /* DynamicProperty.swift in Sources */,
 				4ABEFE301DCFD0530066A8C2 /* NSCollectionView.swift in Sources */,
@@ -1415,6 +1424,7 @@
 				53AC46CC1DD6F97400C799E1 /* UISlider.swift in Sources */,
 				9AA0BD821DDE03F500531FCF /* ObjC+RuntimeSubclassing.swift in Sources */,
 				9A1D060F1D93EA0000ACF44C /* UIView.swift in Sources */,
+				9A6523721ED09B2E00C3BA8D /* BidirectionalBinding.swift in Sources */,
 				9A1D06051D93EA0000ACF44C /* UIDatePicker.swift in Sources */,
 				9A1D05E11D93E99100ACF44C /* NSObject+Association.swift in Sources */,
 				9A1D06041D93EA0000ACF44C /* UIControl.swift in Sources */,
